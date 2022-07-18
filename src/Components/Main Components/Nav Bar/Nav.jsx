@@ -39,38 +39,40 @@ const Nav = () => {
                     <img src={require('../../../Assets/Icons/Expand-Arrow-Down.png')} alt="" className="Down-Arrow Expand-Arrow" />
                     <img src={require('../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" className="Up-Arrow Expand-Arrow" />
 
-                    <div className="Feature-Box">
-                        <ul className="Feature-Content">         
-                            <li>
-                                <a href="#" id="Feature-Link">
-                                    Soptlight
-                                </a>
-                            </li>
+                    <div className="Feature-Box-Wrapper">
+                        <div className="Feature-Box">
+                            <ul className="Feature-Content">         
+                                <li>
+                                    <a href="#" id="Feature-Link">
+                                        Soptlight
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" id="Feature-Link">
-                                    Stories
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" id="Feature-Link">
+                                        Stories
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" id="Feature-Link">
-                                    Maps
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" id="Feature-Link">
+                                        Maps
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" id="Feature-Link">
-                                    Filters & Lenses
-                                </a>
-                            </li>
+                                <li>
+                                    <a href="#" id="Feature-Link">
+                                        Filters & Lenses
+                                    </a>
+                                </li>
 
-                            <li>
-                                <a href="#" id="Feature-Link">
-                                    Snapcodes
-                                </a>
-                            </li>
-                        </ul>
+                                <li>
+                                    <a href="#" id="Feature-Link">
+                                        Snapcodes
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                     {/* <Features /> */}
