@@ -13,36 +13,37 @@ const Nav = () => {
             <img src={require('../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Snapchat-Icon" />
         </div>
 
-        <ul className="NavLink-Container">        
-            <li>
-                <a id="NavLink" href="/">Advertisers</a>
-            </li>
-            
-            <li>
-                <a id="NavLink" href="/">Creators</a>
-            </li>
-            
-            <li>
-                <a id="NavLink" href="/">Deverlopers</a>
-            </li>
-            
-            <li>
-                <a id="NavLink" href="/">Snap AR</a>
-            </li>
-            
-            <li className='Arrow-Link'>
-                <a id="NavLink" href="/">Features</a>
-                <img src={require('../../../Assets/Icons/Expand-Arrow-Down.png')} alt="" className="Down-Arrow Expand-Arrow" />
-                <img src={require('../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" className="Up-Arrow Expand-Arrow" />
-            </li>
-            
-            <li id="NavLink ">
-                <a href="/">
-                    <button className='Download-Button'>Download</button>
-                </a>
-            </li>
-        </ul>
+        <div className="Wrapper">
+            <ul className="NavLink-Container">        
+                <li>
+                    <a id="NavLink" href="/">Advertisers</a>
+                </li>
+                
+                <li>
+                    <a id="NavLink" href="/">Creators</a>
+                </li>
+                
+                <li>
+                    <a id="NavLink" href="/">Deverlopers</a>
+                </li>
+                
+                <li>
+                    <a id="NavLink" href="/">Snap AR</a>
+                </li>
+                
+                <li className='Arrow-Link'>
+                    <a id="NavLink" href="/">Features</a>
+                    <img src={require('../../../Assets/Icons/Expand-Arrow-Down.png')} alt="" className="Down-Arrow Expand-Arrow" />
+                    <img src={require('../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" className="Up-Arrow Expand-Arrow" />
+                </li>
+            </ul>
 
+            <a href="/">
+                <button className='Download-Button'>
+                    <p>Download</p>
+                </button>
+            </a>
+        </div>
 
     </nav>
   )

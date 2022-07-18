@@ -21,18 +21,15 @@ a {
 
     display: flex;
 
-    padding: 20px;
-
     margin: auto;
     margin-top: 0px;
 
-    height: 80px;
+    height: 60px;
     width: 100%;
 }
 
 
 .Grid-Iocn-And-Logo {
-    border: 1px solid black;
     display: flex;
     
     margin: auto;
@@ -49,8 +46,8 @@ a {
 
     margin: auto;
 
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
 }
 
 #Grid-Menu-Icon {
@@ -63,41 +60,49 @@ a {
 #Snapchat-Icon {
     margin: auto;
 
-    height: 30px;
+    height: 40px;
 
 }
 
 /* NAVLINK CONTAINER START */
 
+.Wrapper {
+    display: flex;
+    margin: auto;
+    margin-right: 20px;
+}
+
 .NavLink-Container {
-    border: 1px solid black;
 
     display: flex;
 
-    gap: 20px;
+    gap: 30px;
     padding: 10px;
 
     margin: auto;
+    margin-right: 30px;
 }
 
 .NavLink-Container > .Arrow-Link {
     display: flex;
     position: relative;
 
-    width: 90px;
+    width: 80px;
 }
 
 .NavLink-Container > .Arrow-Link > #NavLink {
     margin-left: 0px;
 }
 
+
 .Expand-Arrow {
     position: absolute;
 
+    top: 6%;
     right: 0px;
 
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
 }
 
 .Up-Arrow {
@@ -106,12 +111,48 @@ a {
 
 #NavLink {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16;
+    font-family: sans-serif;
+    font-size: 15px;
     font-weight: 500;
     
 
     margin: auto;
 }
 
+#NavLink:hover {
+    border-bottom: 1px solid black;
+}
+
+.NavLink-Container > .Arrow-Link:hover #NavLink {
+    border-bottom: 1px solid black;
+}
+
+.NavLink-Container > .Arrow-Link:hover .Down-Arrow {
+    display: none;
+}
+
+.NavLink-Container > .Arrow-Link:hover .Up-Arrow {
+    display: block;
+}
+
+.Download-Button {
+    background-color: black;
+    border-radius: 30px;
+
+    display: flex;
+
+    padding: 10px;
+
+    margin: auto;
+
+    width: 150px;
+}
+.Download-Button > p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    margin: auto;
+}
 /* NAVLINK CONTAINER END */
