@@ -2,7 +2,10 @@ import React from 'react'
 
 import './Nav.css'
 
+// import Features from '../../Page Components/Features Drop Down Menu/Features'
+
 const Nav = () => {
+
   return (
     <nav className='Nav-Bar'>
         <div className="Grid-Iocn-And-Logo">
@@ -35,6 +38,42 @@ const Nav = () => {
                     <a id="NavLink" href="/">Features</a>
                     <img src={require('../../../Assets/Icons/Expand-Arrow-Down.png')} alt="" className="Down-Arrow Expand-Arrow" />
                     <img src={require('../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" className="Up-Arrow Expand-Arrow" />
+
+                    <div className="Feature-Box">
+                        <ul className="Feature-Content">         
+                            <li>
+                                <a href="#" id="Feature-Link">
+                                    Soptlight
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" id="Feature-Link">
+                                    Stories
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" id="Feature-Link">
+                                    Maps
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" id="Feature-Link">
+                                    Filters & Lenses
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" id="Feature-Link">
+                                    Snapcodes
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    {/* <Features /> */}
                 </li>
             </ul>
 
