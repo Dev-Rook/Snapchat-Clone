@@ -4,7 +4,7 @@ import './Features.css'
 const Features = () => {
   return (
     <div className="Feature-Box">
-        <ul className="Feature-Content">         
+        {/* <ul className="Feature-Content">         
             <li>
                 <a href="#" id="Feature-Link">
                     Soptlight
@@ -34,7 +34,7 @@ const Features = () => {
                     Snapcodes
                 </a>
             </li>
-        </ul>
+        </ul> */}
     </div>
   )
 }

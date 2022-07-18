@@ -39,6 +39,8 @@ const Nav = () => {
                     <img src={require('../../../Assets/Icons/Expand-Arrow-Down.png')} alt="" className="Down-Arrow Expand-Arrow" />
                     <img src={require('../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" className="Up-Arrow Expand-Arrow" />
 
+                    
+     
                     <div className="Feature-Box-Wrapper">
                         <div className="Feature-Box">
                             <ul className="Feature-Content">         
@@ -74,6 +76,7 @@ const Nav = () => {
                             </ul>
                         </div>
                     </div>
+
 
                     {/* <Features /> */}
                 </li>

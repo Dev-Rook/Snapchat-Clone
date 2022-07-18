@@ -68,21 +68,15 @@ a {
 /* FEATURES START */
 
 .Feature-Box-Wrapper {
-    border: 1px solid black;
-    background-color: grey;
+    position: absolute;
+    top: 18px;
 
-    display: flex;
 
-    position: relative;
+    width: 100px;
+    height: 100px;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: none;
 
-    padding-left: 5px;
-    padding-right: 5px;
-
-    top: 40px;
-    left: 0px;
 }
 
 .Feature-Box {
@@ -94,23 +88,23 @@ a {
     display: flex;
     flex-direction: column;
 
-    position: absolute;
-
+    /* position: absolute;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 10px; */
+
+    margin: auto;
+    margin-top: 20px;
 
     padding-left: 5px;
     padding-right: 5px;
 
-    top: 40px;
+    top: 20px;
     left: 0px;
 
     height: 140px;
     width: 150px;
 
     z-index: 1;
-
-    /* display: none; */
 }
 
 .Feature-Content {
@@ -150,6 +144,8 @@ a {
     display: flex;
     margin: auto;
     margin-right: 20px;
+
+    position: relative;
 }
 
 .NavLink-Container {
@@ -191,7 +187,6 @@ a {
 }
 
 #NavLink {
-    border: 1px solid black;
     color: black;
     font-family: sans-serif;
     font-size: 15px;
@@ -205,8 +200,12 @@ a {
     border-bottom: 1px solid black;
 }
 
-.NavLink-Container > .Arrow-Link:hover .Feature-Box {
+.NavLink-Container > .Arrow-Link:hover .Feature-Box-Wrapper {
     display: block;
+}
+
+.NavLink-Container > .Arrow-Link > .Feature-Box-Wrapper > .Feature-Box li:hover {
+    background-color: lightgrey;
 }
 
 .NavLink-Container > .Arrow-Link:hover #NavLink {
@@ -232,7 +231,9 @@ a {
     margin: auto;
 
     width: 150px;
+    transition: .3s;
 }
+
 .Download-Button > p {
     color: white;
     font-family: sans-serif;
@@ -241,5 +242,11 @@ a {
 
     margin: auto;
 }
+
+.Download-Button:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transform: translateY(-3px);
+}
+
 /* NAVLINK CONTAINER END */
 
