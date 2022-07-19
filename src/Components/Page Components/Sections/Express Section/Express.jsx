@@ -1,11 +1,19 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+import AOS from 'aos'
+import "aos/dist/aos.css";
 
 import './Express.css'
 
 const Express = () => {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
+
   return (
     <div className="Express-Section">
-        <div className="Phone-Infromation-Section">
+        <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
             <h1 id="Section-Title">
             Express yourself with millions of Lenses.
             </h1>
@@ -40,7 +48,7 @@ const Express = () => {
         </div>
 
         <div className="Express-Video-Large-Wrapper">
-            <div className="Express-Video-Overlay-Card">
+            <div data-aos="fade-up" data-aos-duration="1000" className="Express-Video-Overlay-Card">
                 <div className="Discover">
                     <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
                     <p id="DiscoverText">Discover Snapchat</p>
