@@ -42,8 +42,8 @@ const Express = () => {
         <div className="Express-Video-Large-Wrapper">
             <div className="Express-Video-Overlay-Card">
                 <div className="Discover">
-                    <img src="" alt="" id="Up-Arrow" />
-                    <p id="DiscoverText"></p>
+                    <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
+                    <p id="DiscoverText">Discover Snapchat</p>
                 </div>
                 
                 <h1 id="Video-Title">
