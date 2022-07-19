@@ -15,7 +15,7 @@ const Map = () => {
   return (
     <div className="Map-Section">
         <div className="Video-Wrapper">
-            <video src={require('https://videos.ctfassets.net/adclj4ijug4e/2i2amXQjhbrtpbldae6hwy/fc4d86a18bf233a667ff0c54f354437f/maps_video.mp4')} alt="" id="Express-Video" autoPlay loop></video>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/2i2amXQjhbrtpbldae6hwy/fc4d86a18bf233a667ff0c54f354437f/maps_video.mp4')} alt="" id="Express-Video" autoPlay loop></video>
         </div>
         
         <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
@@ -53,7 +53,7 @@ const Map = () => {
             <div data-aos="fade-up" data-aos-duration="1000"
              className="Map-Video-Overlay-Card">
                 <div className="Discover">
-                    <img src={require('https://videos.ctfassets.net/adclj4ijug4e/2i2amXQjhbrtpbldae6hwy/fc4d86a18bf233a667ff0c54f354437f/maps_video.mp4')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
+                    <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
                     <p id="DiscoverText">Discover Snapchat</p>
                 </div>
                 
@@ -67,7 +67,7 @@ const Map = () => {
                     </button>
                 </a>
             </div>
-            <video src={require('../../../../Assets/Videos/Landing Page Videos/World-Map-Video.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/2i2amXQjhbrtpbldae6hwy/fc4d86a18bf233a667ff0c54f354437f/maps_video.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
             </video>
         </div>
     </div>

@@ -44,7 +44,7 @@ const Express = () => {
         </div>
 
         <div className="Video-Wrapper">
-            <video src={require('https://videos.ctfassets.net/adclj4ijug4e/1HbHsu0is5rJNs4KLkYXRe/31cf8bd38511cef9fc197cf655e798ef/J0433_Lens_GradientTreatmentA_GENERIC_v06_10mb_BJP.mp4')} alt="" id="Express-Video" autoPlay loop></video>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/1HbHsu0is5rJNs4KLkYXRe/31cf8bd38511cef9fc197cf655e798ef/J0433_Lens_GradientTreatmentA_GENERIC_v06_10mb_BJP.mp4')} alt="" id="Express-Video" autoPlay loop></video>
         </div>
 
         <div className="Express-Video-Large-Wrapper">
@@ -64,7 +64,7 @@ const Express = () => {
                     </button>
                 </a>
             </div>
-            <video src={require('https://videos.ctfassets.net/adclj4ijug4e/1HbHsu0is5rJNs4KLkYXRe/31cf8bd38511cef9fc197cf655e798ef/J0433_Lens_GradientTreatmentA_GENERIC_v06_10mb_BJP.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/1HbHsu0is5rJNs4KLkYXRe/31cf8bd38511cef9fc197cf655e798ef/J0433_Lens_GradientTreatmentA_GENERIC_v06_10mb_BJP.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
             </video>
         </div>
     </div>
