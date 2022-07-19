@@ -50,7 +50,8 @@ const Map = () => {
 
 
         <div className="Map-Video-Large-Wrapper">
-            <div data-aos="fade-up" data-aos-duration="1000" className="Map-Video-Overlay-Card">
+            <div data-aos="fade-up" data-aos-duration="1000"
+             className="Map-Video-Overlay-Card">
                 <div className="Discover">
                     <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
                     <p id="DiscoverText">Discover Snapchat</p>
