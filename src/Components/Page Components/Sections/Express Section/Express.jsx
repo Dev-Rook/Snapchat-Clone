@@ -39,7 +39,7 @@ const Express = () => {
             <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video" autoPlay loop></video>
         </div>
 
-        <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video-Large"></video>
+        <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video-Large" autoPlay loop></video>
     </div>
   )
 }
