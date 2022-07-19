@@ -30,9 +30,11 @@ a {
 
 #Mobile-Menu {
     margin: auto;
-
+    margin-left: 50px;
 
     width: 20px;
+
+    display: none;
 }
 
 .Grid-Iocn-And-Logo {
@@ -276,11 +278,22 @@ a {
 /* NAVLINK CONTAINER END */
 
 @media only screen and (max-width: 690px) {
+
     #Mobile-Snap-Icon {
         display: block;
+
+        margin: auto;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .Grid-Iocn-And-Logo {
+        margin-left: 25px;
+        display: none;
     }
 
     .Wrapper {
+        border: 1px solid black;
         margin-right: 25px;
     }
 
@@ -294,5 +307,10 @@ a {
 
     #Download {
         display: block;
+    }
+
+    #Mobile-Menu {
+        display: block;
+        margin-left: 25px;
     }
 }
