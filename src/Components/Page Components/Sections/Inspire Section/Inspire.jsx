@@ -1,21 +1,13 @@
-import React, {useEffect} from 'react'
-import AOS from 'aos'
-import "aos/dist/aos.css";
+import React from 'react'
 
-import './Express.css'
+import './Inspire.css'
 
-const Express = () => {
-
-    useEffect(() => {
-        AOS.init();
-        AOS.refresh();
-      }, []);
-
+const Inspire = () => {
   return (
-    <div className="Express-Section">
-        <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
+    <div className="Inspire-Section">
+                <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
             <h1 id="Section-Title">
-            Express yourself with millions of Lenses.
+                Get inspired and share your creativity.
             </h1>
 
             <form className='Phone-Inputs' action="">
@@ -36,7 +28,7 @@ const Express = () => {
                 
                     <a href="/">
                         <button className='Try-Now-Button'>
-                            <p>Try Now</p>
+                            <p>Open Spotlight</p>
                         </button>
                     </a>
              </fieldset>
@@ -44,31 +36,31 @@ const Express = () => {
         </div>
 
         <div className="Video-Wrapper">
-            <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video" autoPlay loop></video>
+            <video src={require('../../../../Assets/Videos/Landing Page Videos/Get-Inspired-Video.mp4')} alt="" id="Inspire-Video" autoPlay loop></video>
         </div>
 
-        <div className="Express-Video-Large-Wrapper">
-            <div data-aos="fade-up" data-aos-duration="1000" className="Express-Video-Overlay-Card">
-                <div className="Discover-Main">
+        <div className="Inspire-Video-Large-Wrapper">
+            <div data-aos="fade-up" data-aos-duration="1000" className="Inspire-Video-Overlay-Card">
+                <div className="Discover">
                     <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
                     <p id="DiscoverText">Discover Snapchat</p>
                 </div>
                 
                 <h1 id="Video-Title">
-                    Express yourself with millions of Lenses.
+                    Get inspired and share your creativity.
                 </h1>
 
                 <a href="/">
                     <button className='Try-Now-Button-Video'>
-                        <p>Try Now</p>
+                        <p>Open Spotlight</p>
                     </button>
                 </a>
             </div>
-            <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
+            <video src={require('../../../../Assets/Videos/Landing Page Videos/Get-Inspired-Video.mp4')} alt="" id="Inspire-Video-Large" autoPlay loop>
             </video>
         </div>
     </div>
   )
 }
 
-export default Express
+export default Inspire

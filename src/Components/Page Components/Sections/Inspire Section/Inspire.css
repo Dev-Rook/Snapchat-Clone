@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 
-.Express-Section {
+.Inspire-Section {
 
     display: flex;
 
@@ -23,6 +23,7 @@ a {
     margin-bottom: 200px;
 
     padding: 5px;
+    gap: 20px;
 
     width: 1150px;
 
@@ -120,7 +121,7 @@ fieldset {
     border: 2px solid #fffc00;
 }
 
-#Express-Video {
+#Inspire-Video {
     border-radius: 10px;
     margin: auto;
 
@@ -130,7 +131,7 @@ fieldset {
     transition: .5s;
 }
 
-.Express-Video-Large-Wrapper {
+.Inspire-Video-Large-Wrapper {
     border-radius: 10px;
     margin: auto;
 
@@ -144,7 +145,7 @@ fieldset {
     display: none;
 }
 
-#Express-Video-Large {
+#Inspire-Video-Large {
     border-radius: 10px;
     margin: auto;
 
@@ -156,11 +157,11 @@ fieldset {
     transition: .5s;
 }
 
-.Discover-Main {
+.Discover {
     margin-top: 20px;
 }
 
-.Expand-Arrow-Express-Video {
+.Expand-Arrow-Fun-Section-Video {
     top: 6%;
     right: 0px;
 
@@ -179,7 +180,7 @@ fieldset {
     margin-bottom: 10px;
 }
 
-.Express-Video-Overlay-Card {
+.Inspire-Video-Overlay-Card {
     display: flex;
     flex-direction: column;
 
@@ -249,7 +250,7 @@ fieldset {
 
 
 @media only screen and (max-width: 1170px) {
-    .Express-Section {
+    .Inspire-Section {
         width: 90%;
     }
 }
@@ -261,24 +262,24 @@ fieldset {
 }
 
 @media only screen and (max-width: 960px) {
-    #Express-Video {
+    #Inspire-Section-Video {
         height: 600px;
         width: 300px;
     }
 }
 
 @media only screen and (max-width: 800px) {
-    #Express-Video {
+    #Inspire-Video {
         height: 600px;
         width: 300px;
     }
 }
 
 @media only screen and (max-width: 700px) {
-    .Express-Section {
+    .Fun-Section {
         width: 100%;
     }
-    #Express-Video {
+    #Inspire-Section-Video {
         height: 500px;
         width: 300px;
     }
@@ -289,7 +290,15 @@ fieldset {
         display: none;
     }
 
-    .Express-Video-Large-Wrapper{
+    .Inspire-Video-Large-Wrapper{
         display: block;
+    }
+
+    .Discover {
+        display: none;
+    }
+
+    #Video-Title {
+        margin-top: 20px;
     }
 }
