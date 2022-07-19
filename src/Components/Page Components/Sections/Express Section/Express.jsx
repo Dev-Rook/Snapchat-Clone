@@ -39,7 +39,26 @@ const Express = () => {
             <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video" autoPlay loop></video>
         </div>
 
-        <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video-Large" autoPlay loop></video>
+        <div className="Express-Video-Large-Wrapper">
+            <div className="Express-Video-Overlay-Card">
+                <div className="Discover">
+                    <img src="" alt="" id="Up-Arrow" />
+                    <p id="DiscoverText"></p>
+                </div>
+                
+                <h1 id="Video-Title">
+                    Express yourself with millions of Lenses.
+                </h1>
+
+                <a href="/">
+                    <button className='Try-Now-Button-Video'>
+                        <p>Try Now</p>
+                    </button>
+                </a>
+            </div>
+            <video src={require('../../../../Assets/Videos/Landing Page Videos/Lens-Expression-Video.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
+            </video>
+        </div>
     </div>
   )
 }
