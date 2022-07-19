@@ -7,6 +7,7 @@ import Introduction from '../../../Components/Page Components/Sections/Indroduct
 import Express from '../../../Components/Page Components/Sections/Express Section/Express';
 import Fun from '../../../Components/Page Components/Sections/Fun Section/Fun';
 import Inspire from '../../../Components/Page Components/Sections/Inspire Section/Inspire';
+import Map from '../../../Components/Page Components/Sections/Map Section/Map';
 
 
 
@@ -18,6 +19,7 @@ const Landing = () => {
         <Express />
         <Fun />
         <Inspire />
+        <Map />
     </>
   )
 }
