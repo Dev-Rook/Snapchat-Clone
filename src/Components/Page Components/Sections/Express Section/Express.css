@@ -194,6 +194,8 @@ fieldset {
     width: 60%;
 
     z-index: 1;
+
+    display: none;
 }
 
 #Video-Title {
@@ -286,5 +288,9 @@ fieldset {
 @media only screen and (max-width: 690px) {
     .Phone-Infromation-Section, .Video-Wrapper {
         display: none;
+    }
+
+    .Express-Video-Overlay-Card {
+        display: block;
     }
 }
