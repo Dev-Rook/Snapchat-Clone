@@ -28,6 +28,12 @@ a {
     width: 100%;
 }
 
+#Mobile-Menu {
+    margin: auto;
+
+
+    width: 20px;
+}
 
 .Grid-Iocn-And-Logo {
     display: flex;
@@ -136,6 +142,14 @@ a {
 }
 
 /* FEATURES END */
+
+#Mobile-Snap-Icon {
+    margin: auto;
+
+    height: 40px;
+
+    display: none;
+}
 
 
 /* NAVLINK CONTAINER START */
@@ -248,5 +262,37 @@ a {
     transform: translateY(-3px);
 }
 
+#Download {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.3px;
+    font-weight: 600;
+
+    margin: auto;
+
+    display: none;
+}
+
 /* NAVLINK CONTAINER END */
 
+@media only screen and (max-width: 690px) {
+    #Mobile-Snap-Icon {
+        display: block;
+    }
+
+    .Wrapper {
+        margin-right: 25px;
+    }
+
+    .Wrapper > .NavLink-Container {
+        display: none;
+    }
+
+    .Download-Button {
+        display: none;
+    }
+
+    #Download {
+        display: block;
+    }
+}

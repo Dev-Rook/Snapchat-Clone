@@ -3,7 +3,7 @@ import './Introduction.css'
 
 const Introduction = () => {
   return (
-    <div className="Landing-Section">
+    <div className="Introduction-Section">
         <img src={require('../../../Assets/Images/Landing Page Images/Introduction-Section-Image.png')} alt="" id="Intro-Image" />
 
         <div className="Introduction-Information-Box">
@@ -14,6 +14,12 @@ const Introduction = () => {
             <a href="/">
                 <button className='Learn-More-Button'>
                     <p>Learn More</p>
+                </button>
+            </a>
+
+            <a href="/">
+                <button className='Join-Now-Button'>
+                    <p>Join Now</p>
                 </button>
             </a>
         </div>

@@ -8,6 +8,8 @@ const Nav = () => {
 
   return (
     <nav className='Nav-Bar'>
+        <img src={require('../../../Assets/Icons/Mobile-Menu-Icon.png')} alt="" id="Mobile-Menu" />
+
         <div className="Grid-Iocn-And-Logo">
             <div className="Grid-Menu-Icon-Container">
                 <img src={require('../../../Assets/Icons/Circled-Menu-Icon.png')} alt="" id="Grid-Menu-Icon" />
@@ -15,6 +17,8 @@ const Nav = () => {
 
             <img src={require('../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Snapchat-Icon" />
         </div>
+
+        <img src={require('../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Mobile-Snap-Icon" />
 
         <div className="Wrapper">
             <ul className="NavLink-Container">        
@@ -86,6 +90,10 @@ const Nav = () => {
                 <button className='Download-Button'>
                     <p>Download</p>
                 </button>
+            </a>
+
+            <a href="/">
+                <p id='Download'>Download</p>
             </a>
         </div>
 
