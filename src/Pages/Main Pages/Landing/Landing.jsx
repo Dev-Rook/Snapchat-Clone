@@ -1,8 +1,10 @@
 import React from 'react';
 import './Landing.css';
 
-import Introduction from '../../../Components/Page Components/Indroduction Section/Introduction';
+
 import Nav from '../../../Components/Main Components/Nav Bar/Nav';
+import Introduction from '../../../Components/Page Components/Sections/Indroduction Section/Introduction';
+import Express from '../../../Components/Page Components/Sections/Express Section/Express';
 
 
 
@@ -11,6 +13,7 @@ const Landing = () => {
     <>
         <Nav />
         <Introduction />
+        <Express />
     </>
   )
 }

@@ -4,7 +4,7 @@ import './Introduction.css'
 const Introduction = () => {
   return (
     <div className="Introduction-Section">
-        <img src={require('../../../Assets/Images/Landing Page Images/Introduction-Section-Image.png')} alt="" id="Intro-Image" />
+        <img src={require('../../../../Assets/Images/Landing Page Images/Introduction-Section-Image.png')} alt="" id="Intro-Image" />
 
         <div className="Introduction-Information-Box">
             <h1 id='Intro-Header-Title'>Introducing Snapchat+</h1>
