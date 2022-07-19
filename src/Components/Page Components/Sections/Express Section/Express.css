@@ -141,6 +141,8 @@ fieldset {
     width: 100%;
 
     transition: .5s;
+
+    display: none;
 }
 
 #Express-Video-Large {
@@ -153,8 +155,6 @@ fieldset {
     width: 100%;
 
     transition: .5s;
-
-    display: none;
 }
 
 .Discover {
@@ -290,7 +290,7 @@ fieldset {
         display: none;
     }
 
-    #Express-Video-Large{
+    .Express-Video-Large-Wrapper{
         display: block;
     }
 }
