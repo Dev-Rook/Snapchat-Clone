@@ -23,7 +23,6 @@ a {
     margin-bottom: 200px;
 
     padding: 5px;
-    gap: 20px;
 
     width: 1150px;
 
@@ -251,7 +250,7 @@ fieldset {
 
 @media only screen and (max-width: 1170px) {
     .Inspire-Section {
-        width: 90%;
+        width: 100%;
     }
 }
 
@@ -262,7 +261,7 @@ fieldset {
 }
 
 @media only screen and (max-width: 960px) {
-    #Inspire-Section-Video {
+    #Inspire-Video {
         height: 600px;
         width: 300px;
     }
@@ -279,7 +278,7 @@ fieldset {
     .Fun-Section {
         width: 100%;
     }
-    #Inspire-Section-Video {
+    #Inspire-Video {
         height: 500px;
         width: 300px;
     }
