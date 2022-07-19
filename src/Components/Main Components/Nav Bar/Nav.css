@@ -277,7 +277,7 @@ a {
 
 /* NAVLINK CONTAINER END */
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 768px) {
 
     #Mobile-Snap-Icon {
         display: block;
