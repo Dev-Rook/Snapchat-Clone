@@ -5,7 +5,7 @@ const Fun = () => {
   return (
     <div className="Fun-Section">
         <div className="Video-Wrapper">
-            <video src={require('../../../../Assets/Videos/Landing Page Videos/Have-Fun-Video.mp4')} alt="" id="Fun-Video" autoPlay loop></video>
+            <video src={require('https://videos.ctfassets.net/adclj4ijug4e/1dfUF5QOnuKK0dMcEBTeOD/6853319d0be226d0c3a877af0f99818f/J0863_AppTitles_IntroToSnap_SnapAd_6s_375x667_072721_DESKTOP.mp4')} alt="" id="Fun-Video" autoPlay loop></video>
         </div>
         
         <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
@@ -42,7 +42,7 @@ const Fun = () => {
         <div className="Fun-Video-Large-Wrapper">
             <div data-aos="fade-up" data-aos-duration="1000" className="Fun-Video-Overlay-Card">
                 <div className="Discover">
-                    <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Fun-Video'/>
+                    <img src={require('https://videos.ctfassets.net/adclj4ijug4e/1dfUF5QOnuKK0dMcEBTeOD/6853319d0be226d0c3a877af0f99818f/J0863_AppTitles_IntroToSnap_SnapAd_6s_375x667_072721_DESKTOP.mp4')} alt="" id="Up-Arrow" className='Expand-Arrow-Fun-Video'/>
                     <p id="DiscoverText">Discover Snapchat</p>
                 </div>
                 

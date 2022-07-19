@@ -42,7 +42,7 @@ const Inspire = () => {
         <div className="Inspire-Video-Large-Wrapper">
             <div data-aos="fade-up" data-aos-duration="1000" className="Inspire-Video-Overlay-Card">
                 <div className="Discover">
-                    <img src={require('../../../../Assets/Icons/Expand-Arrow-Up.png')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
+                    <img src={require('https://videos.ctfassets.net/adclj4ijug4e/7G4KmcxY27XBN2h57O7TXw/c65403f9c05e5c8c6b1bae4aae8635ab/spotlight_video.mp4')} alt="" id="Up-Arrow" className='Expand-Arrow-Express-Video'/>
                     <p id="DiscoverText">Discover Snapchat</p>
                 </div>
                 
@@ -56,7 +56,7 @@ const Inspire = () => {
                     </button>
                 </a>
             </div>
-            <video src={require('../../../../Assets/Videos/Landing Page Videos/Get-Inspired-Video.mp4')} alt="" id="Inspire-Video-Large" autoPlay loop>
+            <video src={require('https://videos.ctfassets.net/adclj4ijug4e/7G4KmcxY27XBN2h57O7TXw/c65403f9c05e5c8c6b1bae4aae8635ab/spotlight_video.mp4')} alt="" id="Inspire-Video-Large" autoPlay loop>
             </video>
         </div>
     </div>
