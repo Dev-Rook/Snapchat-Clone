@@ -1,0 +1,219 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Skills-Section {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    gap: 50px;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    width: 1180px;
+
+    transition: .5s;
+}
+
+#Snapchat-Logo {
+    border-radius: 10px;
+    margin: auto;
+
+    height: 250px;
+    width: 250px;
+}
+
+.Introduction-Information-Box {
+
+    display: flex;
+    flex-direction: column;
+
+
+    margin: auto;
+
+}
+
+.Phone-Infromation-Section {
+    margin: auto;
+
+}
+
+#Intro-Header-Title {
+    color: black;
+    font-family: sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+}
+
+
+.Learn-More-Button {
+    background-color: black;
+    border-radius: 30px;
+
+    display: flex;
+
+    padding: 12px 48px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+
+    width: 200px;
+    transition: .3s;
+}
+
+.Learn-More-Button > p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    margin: auto;
+}
+
+.Learn-More-Button:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transform: translateY(-3px);
+}
+
+
+
+.Skills-Button {
+    background-color: black;
+    border-radius: 30px;
+
+    display: flex;
+
+    padding: 12px 48px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    width: 180px;
+    transition: .3s;
+
+    display: none;
+}
+
+.Skills-Button > p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+    margin: auto;
+}
+
+.Skills-Button:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transform: translateY(-3px);
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+
+#Section-Title {
+    color: black;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    margin-bottom: 10px;
+    text-align: center;
+
+    transition: .5s;
+}
+
+/* border: none;
+background-color: #fffc00;
+border-radius: 25px;
+
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+bottom: 0px;
+
+text-align: center;
+
+padding: 10px 10px;
+
+margin: 0px 30px 20px;
+
+
+transition: .3s; */
+
+
+
+
+@media only screen and (max-width: 1230px) {
+    .Introduction-Section {
+        margin-top: 200px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .Introduction-Section {
+        gap: 25px;
+    }
+
+    #Intro-Header-Title {
+        font-size: 50px;
+    }   
+}
+
+@media only screen and (max-width: 690px) {
+    #Intro-Image{
+        display: none;
+    }
+
+    .Introduction-Information-Box {
+        gap: 10px;
+    }
+
+    #Intro-Header-Title {
+        font-size: 30px;
+        text-align: center;
+        font-weight: 500;
+    }   
+
+    #Intro-Header-SubTitle {
+        font-size: 16px;
+        text-align: center;
+        font-weight: 400;
+    }   
+
+    .Learn-More-Button {
+        margin: auto;
+        display: none;
+
+    }
+
+    .Join-Now-Button {
+        margin: auto;
+        margin-top: 20px;
+        display: block;
+
+    }
+}

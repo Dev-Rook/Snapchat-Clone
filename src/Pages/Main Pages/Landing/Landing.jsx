@@ -8,6 +8,7 @@ import Express from '../../../Components/Page Components/Sections/Express Sectio
 import Fun from '../../../Components/Page Components/Sections/Fun Section/Fun';
 import Inspire from '../../../Components/Page Components/Sections/Inspire Section/Inspire';
 import Map from '../../../Components/Page Components/Sections/Map Section/Map';
+import Skills from '../../../Components/Page Components/Sections/Skills/Skills';
 
 
 
@@ -20,6 +21,7 @@ const Landing = () => {
         <Fun />
         <Inspire />
         <Map />
+        <Skills />
     </>
   )
 }
