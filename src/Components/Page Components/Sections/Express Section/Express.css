@@ -15,7 +15,6 @@ a {
 }
 
 .Express-Section {
-    border: 1px solid black;
     display: flex;
 
     margin: auto;
@@ -31,37 +30,49 @@ a {
 }
 
 .Three-Img-Container {
-    border: 1px solid black;
     display: flex;
 
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 11px;
+    top: 3px;
     left: 0;
     right: 0;
     text-align: center;
 
-    z-index: 1;
+    z-index: -1;
 
-    width: 50%;
+    width: 60%;
 }
 
 .Tiny-head1, .Tiny-head2, .Tiny-head3 {
-    height: 20px;
+    height: 30px;
     margin: auto;
 }
 
+.Tiny-head1 {
+    transition: .5s;
+}
+
+.Tiny-head2 {
+    transition: .7s;
+}
+
+.Tiny-head3 {
+    transition: .9s;
+}
+
+
 .Hide-Tiny-Head1 {
-    
+    transform: translateY(100%);
 }
 
 .Hide-Tiny-Head2 {
-
+    transform: translateY(100%);
 }
 
 .Hide-Tiny-Head3 {
-
+    transform: translateY(100%);
 }
 
 
