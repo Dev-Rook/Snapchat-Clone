@@ -6,7 +6,7 @@ const Skills = () => {
     <div className="Skills-Section">
         <img src={require('../../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Snapchat-Logo" />
 
-        <h1 id="Section-Title">
+        <h1 id="Skills-Section-Title">
             Open your Snapchat.
          </h1>
 
