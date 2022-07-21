@@ -21,11 +21,11 @@ a {
     height: 100vh;
 }
 
-section {
+/* section {
     display: flex;
     justify-content: center;
     height: 100vh;
     scroll-snap-align: start;
     justify-content: center;
     align-items: center;
-}
+} */
