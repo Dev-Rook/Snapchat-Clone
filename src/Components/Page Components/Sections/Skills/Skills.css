@@ -129,11 +129,12 @@ fieldset {
 
     display: flex;
 
-    padding: 18px 55px;
 
     margin: auto;
 
     transition: .3s;
+
+    display: none;
 }
 
 
@@ -144,7 +145,6 @@ fieldset {
     font-weight: 600;
 
     margin: auto;
-
 }
 
 .Skills-Download-Button :hover {
@@ -213,6 +213,9 @@ transition: .3s; */
 }
 
 @media only screen and (max-width: 690px) {
+    .Skills-Download-Button {
+        display: block;
+    }
     .Skills-Section {
         margin-bottom: 20px;
     }

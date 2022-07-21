@@ -1,1 +1,31 @@
 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.Container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    scroll-snap-align: start;
+    justify-content: center;
+    align-items: center;
+}

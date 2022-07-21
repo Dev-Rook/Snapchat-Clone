@@ -14,15 +14,33 @@ import Skills from '../../../Components/Page Components/Sections/Skills/Skills';
 
 const Landing = () => {
   return (
-    <>
+    <div className='Container'>
         <Nav />
-        <Introduction />
-        <Express />
-        <Fun />
-        <Inspire />
-        <Map />
-        <Skills />
-    </>
+
+        <section>
+          <Introduction />
+        </section>
+
+        <section>
+          <Express />
+        </section>
+
+        <section>
+          <Fun />
+        </section>
+
+        <section>
+          <Inspire />
+        </section>
+
+        <section>
+          <Map />
+        </section>
+      
+        <section>
+          <Skills />
+        </section>
+    </div>
   )
 }
 

@@ -43,12 +43,12 @@ const Express = () => {
 
                 <fieldset>
                     <select name="AreaCodes" id="Area-Code-Selection">
-                        <option id='AreaCodeItem' value="AU"><p>AU +61</p></option>
-                        <option id='AreaCodeItem' value="BR"><p>BR +55</p></option>
-                        <option id='AreaCodeItem' value="GB"><p>GB +44</p></option>
-                        <option id='AreaCodeItem' value="IN"><p>IN +91</p></option>
-                        <option id='AreaCodeItem' value="MX"><p>MX +52</p></option>
-                        <option id='AreaCodeItem' value="US"><p>US +1</p></option>
+                        <option id='AreaCodeItem' value="AU">AU +61</option>
+                        <option id='AreaCodeItem' value="BR">BR +55</option>
+                        <option id='AreaCodeItem' value="GB">GB +44</option>
+                        <option id='AreaCodeItem' value="IN">IN +91</option>
+                        <option id='AreaCodeItem' value="MX">MX +52</option>
+                        <option id='AreaCodeItem' value="US">US +1</option>
                     </select>
 
                     <input id='Phone-Number-Input-Box' type="text" name='Phone' placeholder='Phone Number' />

@@ -67,7 +67,7 @@ const Map = () => {
                     </button>
                 </a>
             </div>
-            <video src={('https://videos.ctfassets.net/adclj4ijug4e/2i2amXQjhbrtpbldae6hwy/fc4d86a18bf233a667ff0c54f354437f/maps_video.mp4')} alt="" id="Express-Video-Large" autoPlay loop>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/2i2amXQjhbrtpbldae6hwy/fc4d86a18bf233a667ff0c54f354437f/maps_video.mp4')} alt="" id="Map-Video-Large" autoPlay loop>
             </video>
         </div>
     </div>
