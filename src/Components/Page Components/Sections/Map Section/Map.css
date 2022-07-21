@@ -287,6 +287,10 @@ fieldset {
 }
 
 @media only screen and (max-width: 690px) {
+    .Map-Section {
+        margin-bottom: 200px;
+    }
+
     .Phone-Infromation-Section, .Video-Wrapper {
         display: none;
     }

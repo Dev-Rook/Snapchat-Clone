@@ -19,8 +19,7 @@ a {
     display: flex;
 
     margin: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 
     padding: 5px;
 
@@ -285,6 +284,10 @@ fieldset {
 }
 
 @media only screen and (max-width: 690px) {
+    .Inspire-Section {
+        margin-bottom: 20px;
+    }
+
     .Phone-Infromation-Section, .Video-Wrapper {
         display: none;
     }
