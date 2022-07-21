@@ -5,7 +5,18 @@ const Skills = () => {
   return (
     <div className="Skills-Section">
         <img src={require('../../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Snapchat-Logo" />
-        <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
+
+        <h1 id="Section-Title">
+            Open your Snapchat.
+         </h1>
+
+        <a href="/">
+            <button className='Skills-Download-Button'>
+                <p>Download</p>
+            </button>
+        </a>
+
+        <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section-Skills">
             <form className='Phone-Inputs' action="">
                 <fieldset>
                     <select name="AreaCodes" id="Area-Code-Selection">
@@ -29,15 +40,15 @@ const Skills = () => {
              </fieldset>
             </form>
 
-            <h1 id="Section-Title">
+            <h1 id="Skill-Title">
                 Advertisers
             </h1>
 
-            <h1 id="Section-Title">
+            <h1 id="Skill-Title">
                 Creators
             </h1>
 
-            <h1 id="Section-Title">
+            <h1 id="Skill-Title">
                 Developers
             </h1>
         </div>
