@@ -15,43 +15,52 @@ a {
 }
 
 .Express-Section {
+    border: 1px solid black;
     display: flex;
 
     margin: auto;
     margin-bottom: 200px;
 
-    position: relative;
+    padding: 10px;
 
-    padding: 5px;
+    overflow: visible;
+
+    position: relative;
 
     width: 1150px;
 
     transition: .5s;
+
 }
 
 .Three-Img-Container {
     display: flex;
 
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 3px;
-    left: 0;
-    right: 0;
-    text-align: center;
 
-    z-index: -1;
+    top: -12px;
 
-    width: 60%;
+    right: 60px;
+
+
+    overflow: visible;
+
+
+    
+
+    width: 200px;
 }
 
 .Tiny-head1, .Tiny-head2, .Tiny-head3 {
     height: 30px;
     margin: auto;
+
+    z-index: -1;
 }
 
 .Tiny-head1 {
     transition: .5s;
+
 }
 
 .Tiny-head2 {
@@ -162,18 +171,21 @@ fieldset {
 }
 
 .Video-Wrapper {
+    border: none;
     position: relative;
-    overflow: hidden;
-    border-radius: 20px;
-    border: 2px solid #fffc00;
+    overflow: visible;
 }
 
 #Express-Video {
+    border: none;
+    position: relative;
     border-radius: 10px;
     margin: auto;
 
     height: 550px;
     width: 300px;
+
+
 
     transition: .5s;
 }
@@ -259,7 +271,6 @@ fieldset {
 
 .Try-Now-Button-Video {
     border: none;
-    background-color: #fffc00;
     border-radius: 25px;
 
     position: absolute;
@@ -309,6 +320,9 @@ fieldset {
 }
 
 @media only screen and (max-width: 960px) {
+    .Three-Img-Container { 
+        top: 15px;
+    }
     #Express-Video {
         height: 600px;
         width: 300px;

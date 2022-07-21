@@ -26,7 +26,13 @@ const Express = () => {
 
   return (
     <div className="Express-Section">
+        <div className="Three-Img-Container">
+            <img className={ hideTinyHead ? 'Tiny-head1 Hide-Tiny-Head1' : "Tiny-head1"} src={('https://images.ctfassets.net/adclj4ijug4e/6aolTqa1QiYJPkpYqJlu1t/f48ff626bcc1c5ad3d6539e0dc5e2825/Eddie_K.png')} alt="" />
 
+            <img className={ hideTinyHead ? 'Tiny-head2 Hide-Tiny-Head2' : "Tiny-head2"} src={('https://images.ctfassets.net/adclj4ijug4e/3C9sLMyfSgTqcsUBvKTKXK/c1a585d97bd0051d08e37459346b9ebc/Abby_T.png')} alt="" />
+
+            <img className={ hideTinyHead ? 'Tiny-head3 Hide-Tiny-Head3' : "Tiny-head3"} src={('https://images.ctfassets.net/adclj4ijug4e/2k37Ua2EnIVARCXXBkcpNt/78a5a181c34e8484935afadec566f8f8/Virginia_D.png')} alt="" />
+        </div>
 
         <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
             <h1 id="Section-Title">
@@ -59,13 +65,6 @@ const Express = () => {
         </div>
 
         <div className="Video-Wrapper">
-        <div className="Three-Img-Container">
-            <img className={ hideTinyHead ? 'Tiny-head1 Hide-Tiny-Head1' : "Tiny-head1"} src={('https://images.ctfassets.net/adclj4ijug4e/6aolTqa1QiYJPkpYqJlu1t/f48ff626bcc1c5ad3d6539e0dc5e2825/Eddie_K.png')} alt="" />
-
-            <img className={ hideTinyHead ? 'Tiny-head2 Hide-Tiny-Head2' : "Tiny-head2"} src={('https://images.ctfassets.net/adclj4ijug4e/3C9sLMyfSgTqcsUBvKTKXK/c1a585d97bd0051d08e37459346b9ebc/Abby_T.png')} alt="" />
-
-            <img className={ hideTinyHead ? 'Tiny-head3 Hide-Tiny-Head3' : "Tiny-head3"} src={('https://images.ctfassets.net/adclj4ijug4e/2k37Ua2EnIVARCXXBkcpNt/78a5a181c34e8484935afadec566f8f8/Virginia_D.png')} alt="" />
-        </div>
             <video src={('https://videos.ctfassets.net/adclj4ijug4e/1HbHsu0is5rJNs4KLkYXRe/31cf8bd38511cef9fc197cf655e798ef/J0433_Lens_GradientTreatmentA_GENERIC_v06_10mb_BJP.mp4')} alt="" id="Express-Video" autoPlay loop></video>
         </div>
 
