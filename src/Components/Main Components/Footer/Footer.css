@@ -1,0 +1,53 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Footer {
+    border: 1px solid black;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px;
+
+    margin: auto;
+    margin-bottom: 0px;
+
+    height: 470px;
+    width: 100%;
+}
+
+.CCA, .LL {
+    border: 1px solid black;
+    display: flex;
+
+    padding: 10px;
+
+    margin: auto;
+    margin-left: 100px;
+
+    width: 60%;
+    height: 180px;
+}
+
+#Company-Links, #Community-Links, #Advertising-Links {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+} 

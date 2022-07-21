@@ -21,7 +21,7 @@ a {
     gap: 50px;
 
     margin: auto;
-    margin-bottom: 500px;
+    margin-bottom: 100px;
 
     width: 1180px;
 
@@ -99,7 +99,7 @@ fieldset {
 #Skill-Title {
     color: black;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
 
     margin-bottom: 10px;
@@ -182,42 +182,12 @@ transition: .3s; */
 }
 
 
-@media only screen and (max-width: 1060px) {
-    #Skill-Title {
-        font-size: 44px;
-    }
-}
-
-@media only screen and (max-width: 960px) {
-    #Map-Video {
-        height: 600px;
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    #Map-Video {
-        height: 600px;
-        width: 300px;
-    }
-}
-
-@media only screen and (max-width: 700px) {
-    .Map-Section {
-        width: 100%;
-    }
-    #Map-Video {
-        height: 500px;
-        width: 300px;
-    }
-}
-
 @media only screen and (max-width: 690px) {
     .Skills-Download-Button {
         display: block;
     }
     .Skills-Section {
-        margin-bottom: 20px;
+        margin-bottom: 100px;
     }
 
     #Snapchat-Logo {
@@ -233,6 +203,6 @@ transition: .3s; */
     }
 
     #Skill-Title {
-        font-size: 20px;
+        font-size: 30px;
     }
 }

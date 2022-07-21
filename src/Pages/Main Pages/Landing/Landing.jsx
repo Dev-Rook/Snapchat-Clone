@@ -9,6 +9,7 @@ import Fun from '../../../Components/Page Components/Sections/Fun Section/Fun';
 import Inspire from '../../../Components/Page Components/Sections/Inspire Section/Inspire';
 import Map from '../../../Components/Page Components/Sections/Map Section/Map';
 import Skills from '../../../Components/Page Components/Sections/Skills/Skills';
+import Footer from '../../../Components/Main Components/Footer/Footer';
 
 
 
@@ -39,6 +40,10 @@ const Landing = () => {
       
         <section>
           <Skills />
+        </section>
+      
+        <section>
+          <Footer />
         </section>
     </div>
   )
