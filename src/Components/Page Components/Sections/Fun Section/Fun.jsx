@@ -5,7 +5,7 @@ const Fun = () => {
   return (
     <div className="Fun-Section">
         <div className="Video-Wrapper">
-            <video src={('https://videos.ctfassets.net/adclj4ijug4e/7G4KmcxY27XBN2h57O7TXw/c65403f9c05e5c8c6b1bae4aae8635ab/spotlight_video.mp4')} alt="" id="Fun-Video" autoPlay loop></video>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/1dfUF5QOnuKK0dMcEBTeOD/6853319d0be226d0c3a877af0f99818f/J0863_AppTitles_IntroToSnap_SnapAd_6s_375x667_072721_DESKTOP.mp4')} alt="" id="Fun-Video" autoPlay loop></video>
         </div>
         
         <div data-aos="fade-up" data-aos-duration="1000" className="Phone-Infromation-Section">
@@ -56,7 +56,7 @@ const Fun = () => {
                     </button>
                 </a>
             </div>
-            <video src={('https://videos.ctfassets.net/adclj4ijug4e/7G4KmcxY27XBN2h57O7TXw/c65403f9c05e5c8c6b1bae4aae8635ab/spotlight_video.mp4')} alt="" id="Fun-Video-Large" autoPlay loop>
+            <video src={('https://videos.ctfassets.net/adclj4ijug4e/1dfUF5QOnuKK0dMcEBTeOD/6853319d0be226d0c3a877af0f99818f/J0863_AppTitles_IntroToSnap_SnapAd_6s_375x667_072721_DESKTOP.mp4')} alt="" id="Fun-Video-Large" autoPlay loop>
             </video>
         </div>
     </div>
