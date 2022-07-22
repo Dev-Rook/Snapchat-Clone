@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import './Nav.css'
 
@@ -6,13 +6,25 @@ import './Nav.css'
 
 const Nav = () => {
 
+    const [showNavBoard, setShowNavBoard] = useState(false);
+
+    const revealNavBoard = () => {
+        setShowNavBoard((preveState) => !preveState)
+    }
+
+    const hideNavBoard = () => {
+        setShowNavBoard((preveState) => !preveState)
+    }
+
+
+
   return (
     <nav className='Nav-Bar'>
         <img src={require('../../../Assets/Icons/Mobile-Menu-Icon.png')} alt="" id="Mobile-Menu" />
 
         <div className="Grid-Iocn-And-Logo">
             <div className="Grid-Menu-Icon-Container">
-                <img src={require('../../../Assets/Icons/Circled-Menu-Icon.png')} alt="" id="Grid-Menu-Icon" />
+                <img onClick={revealNavBoard} src={require('../../../Assets/Icons/Circled-Menu-Icon.png')} alt="" id="Grid-Menu-Icon" />
             </div>
 
             <img src={require('../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Snapchat-Icon" />
@@ -95,6 +107,13 @@ const Nav = () => {
             <a href="/">
                 <p id='Download'>Download</p>
             </a>
+        </div>
+
+
+
+
+        <div className={ showNavBoard ? "Large-Nav-Board Show-nav-Board " : "Large-Nav-Board" }>
+            <div onClick={hideNavBoard} className="X"></div>
         </div>
 
     </nav>

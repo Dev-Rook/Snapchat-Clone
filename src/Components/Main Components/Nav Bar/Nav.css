@@ -281,6 +281,53 @@ a {
 
 /* NAVLINK CONTAINER END */
 
+
+
+
+
+
+
+
+.Large-Nav-Board {
+    background-color: white;
+    display: flex;
+
+    position: absolute;
+
+    height: 100vh;
+    width: 100%;
+
+    z-index: 1;
+
+    transition:.5s;
+    transform: translateY(100%)
+}
+
+.Show-nav-Board {
+    transform: translateY(0%);
+}
+
+.X {
+    background-color: red;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
 
     #Mobile-Snap-Icon {
@@ -319,4 +366,12 @@ a {
         margin-left: 25px;
         margin-right: 25%;
     }
+
+}
+
+@media only screen and (max-width: 690px) { 
+    .Large-Nav-Board  {
+        display: none;
+    }
+
 }
