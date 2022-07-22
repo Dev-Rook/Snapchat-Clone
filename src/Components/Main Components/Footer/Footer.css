@@ -35,19 +35,51 @@ a {
     display: flex;
 
     padding: 10px;
+    gap: 30px;
 
     margin: auto;
-    margin-left: 100px;
 
     width: 60%;
     height: 180px;
 }
 
-#Company-Links, #Community-Links, #Advertising-Links {
-    border: 1px solid black;
+.Label-Links {
     display: flex;
     flex-direction: column;
 
     margin: auto;
     margin-top: 0px;
 } 
+
+.Label-Links > span {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.Label-Links > li > a  {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Label-Links > li > a:hover  {
+    border-bottom: 1px solid black;
+}
+
+.First-Label {
+    margin-right: 50px;
+}
+
+.Language-Selector {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    margin-top: 0px;
+}
