@@ -1,10 +1,16 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
+import AOS from 'aos'
 
 import './Nav.css'
 
 // import Features from '../../Page Components/Features Drop Down Menu/Features'
 
 const Nav = () => {
+
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
 
     const [showNavBoard, setShowNavBoard] = useState(false);
     const [showSideMenu, setShowSideMenu] = useState(false);
@@ -15,7 +21,7 @@ const Nav = () => {
     }
 
     const hideNavBoard = () => {
-        setShowNavBoard((preveState) => !preveState)
+        setShowNavBoard((prevState) => !prevState)
     }
 
 
@@ -129,7 +135,11 @@ const Nav = () => {
 
 
 
-        <div className={ showSideMenu ? "Mobile-Side-Menue Show-Mobile-Menu" :  "Mobile-Side-Menu"}>
+        {/* <div data-aos="zoom-in" data-aos-duration="1000" className={ showSideMenu ? "Mobile-Side-Menu Show-Mobile-Menu" :  "Mobile-Side-Menu"}>
+
+        </div> */}
+
+        <div className={ showSideMenu ? "Mobile-Side-Menu Show-Mobile-Menu" :  "Mobile-Side-Menu"}>
 
         </div>
 
