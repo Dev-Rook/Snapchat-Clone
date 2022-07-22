@@ -26,7 +26,6 @@ a {
     margin: auto;
     margin-bottom: 0px;
 
-    height: 470px;
     width: 100%;
 }
 
@@ -105,4 +104,58 @@ a {
     background-color: white;
     padding: 10px;
     width: 100px;
+}
+
+
+.Accordion {
+   display: none;
+}
+.Accordion-Body {
+   display: flex;
+}
+
+.Links {
+    margin: auto;
+}
+
+.Links > li > a {
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Mobile-Language-Selector {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+
+    margin: auto;
+    margin-bottom: 10px;
+
+    display: none;
+}
+
+
+.Mobile-Language-Selector > span {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 690px) {
+    .Mobile-Language-Selector {
+        display: flex;
+    }
+    .CCA, .LL {
+        display: none;
+    }
+    .Accordion {
+        display: block;
+    }
 }
