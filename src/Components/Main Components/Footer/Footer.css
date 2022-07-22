@@ -109,7 +109,7 @@ a {
     display: flex;
 
     padding: 10px;
-    gap: 30px;
+    gap: 10px;
 
     margin: auto;
     margin-bottom: 0px;
@@ -124,10 +124,6 @@ a {
     line-height: 16px;
 
     margin: auto;
-}
-
-#Privacy-Policy {
-
 }
 
 
@@ -192,5 +188,9 @@ a {
     }
     .Accordion {
         display: block;
+    }
+
+    .Privacy-TOS {
+        flex-direction: column;
     }
 }

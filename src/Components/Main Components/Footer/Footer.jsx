@@ -122,7 +122,7 @@ const Footer = () => {
             </div>
         </div>
 
-    <Accordion className='Accordion' defaultActiveKey="0" flush>
+    <Accordion className='Accordion' flush>
       <Accordion.Item eventKey="0">
         <Accordion.Header>Company</Accordion.Header>
         <Accordion.Body className='Accordion-Body'>
