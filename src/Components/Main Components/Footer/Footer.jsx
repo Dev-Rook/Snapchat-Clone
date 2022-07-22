@@ -156,8 +156,8 @@ const Footer = () => {
             </ul>
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="3">
-        <Accordion.Header>Legal</Accordion.Header>
+      <Accordion.Item eventKey="3" className='Item'>
+        <Accordion.Header className='Accordion-Header'>Legal</Accordion.Header>
         <Accordion.Body className='Accordion-Body'>
             <ul className='Links'>
                 <li><a href='#'>Snap Inc.</a></li>
