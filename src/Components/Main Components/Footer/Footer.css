@@ -33,14 +33,14 @@ a {
 .CCA, .LL {
     border: 1px solid black;
     display: flex;
+    flex-wrap: wrap;
 
     padding: 10px;
     gap: 30px;
 
     margin: auto;
 
-    width: 60%;
-    height: 180px;
+    width: 100%;
 }
 
 .Label-Links {
@@ -61,6 +61,7 @@ a {
     margin-left: 0px;
 }
 
+
 .Label-Links > li > a  {
     color: black;
     font-size: 14px;
@@ -73,13 +74,35 @@ a {
 
 .First-Label {
     margin-right: 50px;
+    width: 100px;
+}
+
+.First-Label-Legal {
+    margin-left: 20px;
 }
 
 .Language-Selector {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 
     margin: auto;
     margin-top: 0px;
+}
+
+.Language-Selector > span {
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+
+    margin: auto;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+#Box {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 100px;
 }
