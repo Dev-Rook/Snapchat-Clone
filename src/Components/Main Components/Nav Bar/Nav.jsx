@@ -7,6 +7,8 @@ import './Nav.css'
 const Nav = () => {
 
     const [showNavBoard, setShowNavBoard] = useState(false);
+    const [showSideMenu, setShowSideMenu] = useState(false);
+
 
     const revealNavBoard = () => {
         setShowNavBoard((preveState) => !preveState)
@@ -17,14 +19,23 @@ const Nav = () => {
     }
 
 
+    const revealSideMenu = () => {
+        setShowSideMenu((preveState) => !preveState)
+    }
+
+    // const hideSideMenu = () => {
+    //     setShowNavBoard((preveState) => !preveState)
+    // }
+
+
 
   return (
     <nav className='Nav-Bar'>
-        <img src={require('../../../Assets/Icons/Mobile-Menu-Icon.png')} alt="" id="Mobile-Menu" />
+        <img onClick={revealSideMenu} src={require('../../../Assets/Icons/Mobile-Menu-Icon.png')} alt="" id="Mobile-Menu" />
 
         <div className="Grid-Iocn-And-Logo">
-            <div className="Grid-Menu-Icon-Container">
-                <img onClick={revealNavBoard} src={require('../../../Assets/Icons/Circled-Menu-Icon.png')} alt="" id="Grid-Menu-Icon" />
+            <div onClick={revealNavBoard} className="Grid-Menu-Icon-Container">
+                <img src={require('../../../Assets/Icons/Circled-Menu-Icon.png')} alt="" id="Grid-Menu-Icon" />
             </div>
 
             <img src={require('../../../Assets/Icons/Snapchat-Logo.png')} alt="" id="Snapchat-Icon" />
@@ -114,6 +125,12 @@ const Nav = () => {
 
         <div className={ showNavBoard ? "Large-Nav-Board Show-nav-Board " : "Large-Nav-Board" }>
             <div onClick={hideNavBoard} className="X"></div>
+        </div>
+
+
+
+        <div className={ showSideMenu ? "Mobile-Side-Menue Show-Mobile-Menu" :  "Mobile-Side-Menu"}>
+
         </div>
 
     </nav>
