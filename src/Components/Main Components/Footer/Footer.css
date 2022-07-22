@@ -154,6 +154,9 @@ a {
     font-size: 14px;
     font-weight: 400;
 }
+.Links > li > a:hover {
+    border-bottom: 1px solid black;
+}
 
 .Mobile-Language-Selector {
     display: flex;
